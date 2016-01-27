@@ -9,3 +9,10 @@ h4 { font-size: $fontSize-large; }
 h5 { font-size: $fontSize-base; }
 h6 { font-size: $fontSize-small; }
 small { font-size: 90%; }
+
+a {
+  color: $color-link;
+  text-decoration: none;
+
+  & { text-decoration: underline; }
+}
