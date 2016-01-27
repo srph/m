@@ -12,7 +12,7 @@
   - Inspiration taken from [Medium's Coding Guidelines#Variables](https://gist.github.com/fat/a47b882eb5f84293c4ed#variables).
   - Naming
 	- `<property>-<value>[--ComponentName]`
-  	  - `$color-grayLight
+  	  - `$color-grayLight`
   	  - `$color-grayLight--Modal`
   	  - `$fontSize-large`
   - Colors
