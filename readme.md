@@ -17,3 +17,9 @@
   	  - `$fontSize-large`
   - Colors
     - Lowercase hex values
+
+## Running
+```bash
+make dev # compiles and watches for changes.
+make # make a clean release
+```
