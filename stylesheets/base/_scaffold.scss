@@ -1,12 +1,17 @@
-& {
+* {
   box-sizing: border-box;
 }
 
-body {
-  font-size: $fontSizeBase;
-  line-height: $lineHeight;
+html, body {
+  font-family: $fontSans;
+  font-size: $fontSize-base;
+  line-height: $lineHeight-base;
 }
 
 .Container {
-  
+  @include clearfix;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
