@@ -5,6 +5,7 @@
 - Loosely follows [SUITCSS Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md).
 - Loosely follows [codeguide](http://codeguide.co/).
 - Uses [Font Awesome](https://fortawesome.github.io/Font-Awesome/).
+- Avoid `margin-top` when possible.
 - Mixins
   - Since mixins are kept simple, use them whenever you can.
 - Variables

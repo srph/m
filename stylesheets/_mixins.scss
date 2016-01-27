@@ -16,3 +16,32 @@
     text-decoration: none;
   }
 }
+
+@mixin text-ellipsis($max-width: 100%) {
+  display: inline-block;
+  overflow: hidden;
+  max-width: $max-width;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Helpful for menu
+@mixin list-block() {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+// Media-query mixins
+@mixin breakpoint-sm() {
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-md() {
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    @content;
+  }
+}

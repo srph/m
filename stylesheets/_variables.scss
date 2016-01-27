@@ -1,10 +1,13 @@
+// Color Palette
 $color-black: #000;
 $color-gray: #d9d9d9;
-$color-grayDarker: #969696;
+$color-grayDark: #969696;
 $color-white: #fff;
 $color-green: #3cc76a;
 
-$lineHeight-base: 1.7;
+// Typography
+$lineHeight-small: 1.7;
+$lineHeight-base: 2.0;
 $fontSize-base: 14px;
 $fontSize-jumbo: 30px;
 $fontSize-largest: 26px;
@@ -13,7 +16,23 @@ $fontSize-large: 18px;
 $fontSize-small: 12px;
 $fontSans: 'Source Sans Pro', Helvetica, sans-serif;
 
-$formSize: 40px;
+// Form
+$formSize-small: 30px;
+$formSize-base: 40px;
 
+// Grid
+$gridGutter: 10px;
+$gridSizes: (
+  xs: 360px,
+  sm: 480px,
+  md: 768px
+);
+
+// Border-radius
 $borderRadius-base: 6px;
 $borderRadius-large: 25px; // For well-rounded buttons, etc.
+
+// Spacers
+$spacer-small: 15px;
+$spacer-base: 25px;
+$spacer-large: 50px;

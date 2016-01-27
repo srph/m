@@ -26,8 +26,8 @@
 .Button {
   @include link-no-underscore;
   display: inline-block;
-  height: $formSize;
-  line-height: $formSize - 1px;
+  height: $formSize-base;
+  line-height: $formSize-base - 1px;
   padding: 0 20px;
   font-size: $fontSize-base;
   background: transparent;
@@ -40,12 +40,17 @@
   }
 
   &.Button--default {
-    @include buttonAltVariant($color-gray, $color-grayDarker);
+    @include buttonAltVariant($color-gray, $color-grayDark);
+    background: $color-white;
   }
 
   &.Button--plain {
-    height: auto;
-    line-height: 1;
     padding: 0;
+  }
+
+  &.Button--small {
+    height: $formSize-small;
+    line-height: $formSize-small - 1;
+    padding: 0 10px;
   }
 }

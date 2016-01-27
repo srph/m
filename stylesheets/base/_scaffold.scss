@@ -1,4 +1,10 @@
 * {
+  // antialias
+  // https://github.com/mashupgarage/mashupgarage.com/blob/gh-pages/assets/sass/base/_antialias.scss
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+
   box-sizing: border-box;
 }
 

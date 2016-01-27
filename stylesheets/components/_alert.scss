@@ -1,0 +1,19 @@
+.Alert {
+  padding: 15px 15px;
+  border-radius: $borderRadius-base;
+
+  &.Alert--primary {
+    color: $color-white;
+    background: $color-green;
+  }
+
+  &.Alert--default {
+    color: $color-grayDark;
+    border: 1px solid $color-gray;
+  }
+
+  &.Alert--primary .Alert-link {
+    @include link-no-underscore;
+    color: #257B41;
+  }
+}

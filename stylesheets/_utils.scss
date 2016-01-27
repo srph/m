@@ -2,6 +2,34 @@
 .u-pullLeft { float: left !important; }
 .u-pullRight { float: right !important; }
 
+// Sizing Utilities
+.u-size-xs { max-width: map-get($gridSizes, xs) !important; }
+.u-size-sm { max-width: map-get($gridSizes, sm) !important; }
+.u-size-md { max-width: map-get($gridSizes, md) !important; }
+
 // Grid Utilities
-.u-size480 { max-width: 480px !important; }
-.u-size768 { max-width: 768px !important; }
+// Generates block sizes;
+// u-size-md-6, u-size-sm-4, u-size-xs-3
+@each $label, $size in $gridSizes {
+  @for $i from 1 through 12 {
+    .u-size-#{$label}-#{$i} {
+      @media(min-width: $size) {
+        width: percentage($i / 12);
+      }
+    }
+  }
+}
+
+// Spacers
+.u-spacer-small { margin-bottom: $spacer-small; }
+.u-spacer-base { margin-bottom: $spacer-base; }
+.u-spacer-large { margin-bottom: $spacer-large; }
+
+// Text
+.u-ellipsis {
+  @include text-ellipsis;
+
+  &.-expander:hover {
+    max-width: 10000px !important;
+  }
+}
