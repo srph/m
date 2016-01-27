@@ -1,3 +1,51 @@
+/**
+ * @param $bg Background color
+ * @param $text Text color
+ */
+@mixin buttonVariant($bg, $text: $color-white) {
+  background: $bg;
+
+  &:hover { background: lighten($bg, 5%); }
+  &, &:hover { color: $text; }
+}
+
+/**
+ * @param $border Border color
+ * @param $text Text color
+ */
+@mixin buttonAltVariant($border, $text: $color-black) {
+  color: $text;
+  border-color: $border;
+
+  &:hover {
+    color: darken($text, 10%);
+    border-color: darken($border, 10%);
+  }
+}
+
 .Button {
-  
+  @include link-no-underscore;
+  display: inline-block;
+  height: $formSize;
+  line-height: $formSize - 1px;
+  padding: 0 20px;
+  font-size: $fontSize-base;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: $borderRadius-base;
+  transition: 0.25s all ease;
+
+  &.Button--primary {
+    @include buttonVariant($color-green);
+  }
+
+  &.Button--default {
+    @include buttonAltVariant($color-gray, $color-grayDarker);
+  }
+
+  &.Button--plain {
+    height: auto;
+    line-height: 1;
+    padding: 0;
+  }
 }
