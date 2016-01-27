@@ -1,8 +1,9 @@
-STYLESHEETS=./stylesheets
+DOCS=./docs
+MAIN=./stylesheets/main.scss
 OUTPUT=./style.css
 
-watch:
-	sass --watch $(STYLESHEETS)/m.scss:$(OUTPUT)
+dev:
+	sass --watch $(DOCS)/stylesheets/main.scss:$(DOCS)/style.css
 
 clean:
 	echo "No command yet!" && exit 0
