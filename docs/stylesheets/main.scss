@@ -11,6 +11,10 @@
   padding-bottom: 50px;
   border-bottom: 1px solid $color-gray;
 
+  &:first-child {
+    border-top: 1px solid $color-gray;
+  }
+
   &:last-child {
     border-bottom: 0;
   }
@@ -23,5 +27,5 @@
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
-  background: $color-gray;
+  background: #efefef;
 }
