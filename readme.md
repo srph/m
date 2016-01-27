@@ -10,7 +10,7 @@
 ## Also
 - No documentation.
 - Not maintained.
-- A *lesser* Skeleton CSS.
+- A *lesser* [Skeleton CSS](http://getskeleton.com/).
   - Use it for ideas.
   - Use it as a starting point.
 - Has useful mixins and utilities!
