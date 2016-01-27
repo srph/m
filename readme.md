@@ -1,6 +1,19 @@
 ## m
 (n.) minimalistic stylesheets
 
+## Why?
+- This is not another UI Framework.
+- I'd like to get my feet wet with SUITCSS's Conventions.
+- See if I can achieve a much more cleaner CSS so far.
+
+## Also
+- No documentation.
+- Not maintained.
+- A *lesser* Skeleton CSS.
+  - Use it for ideas.
+  - Use it as a starting point.
+- Has useful mixins and utilities!
+
 ## 101
 - Loosely follows [SUITCSS Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md).
 - Loosely follows [codeguide](http://codeguide.co/).

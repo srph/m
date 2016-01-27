@@ -53,4 +53,16 @@
     line-height: $formSize-small - 1;
     padding: 0 10px;
   }
+
+  &.Button--rounded {
+    border-radius: $borderRadius-large;
+  }
+
+  .Button-icon:first-child {
+    margin-right: 5px;
+  }
+
+  .Button-icon:last-child {
+    margin-left: 5px;
+  }
 }
