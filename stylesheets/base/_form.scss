@@ -1,5 +1,49 @@
-.Form {
+.FormInput {
+  display: block;
+  padding: ($formSize-base / 3) ($formSize-base / 5);
+  width: 100%;
+  height: $formSize-base;
+  background: $color-white;
+  border: 1px solid $color-gray;
+  border-radius: $borderRadius-base;
+  outline: 0;
+}
 
+textarea.FormInput {
+  height: auto;
+}
+
+.FormGroup {
+  position: relative;
+  display: flex;
+  align-items: center;
+    // padding: ($formSize-base / 3) ($formSize-base / 5);
+  height: $formSize-base;
+  border: 1px solid $color-gray;
+  border-radius: $borderRadius-base;
+
+  &:hover .FormGroup-addon {
+    color: $color-black;
+  }
+
+  .FormGroup-input {
+    display: block;
+    padding: 0 ($formSize-base / 5);
+    width: 100%;
+    border: 0;
+    outline: 0;
+  }
+
+  .FormGroup-addon {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: $color-gray;
+    transition: 0.2s all;
+  }
+
+  .FormGroup-button {
+    padding: 5px;
+  }
 }
 
 .FormActions {

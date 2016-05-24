@@ -13,6 +13,8 @@
 @each $label, $size in $gridSizes {
   @for $i from 1 through 12 {
     .u-size-#{$label}-#{$i} {
+      width: 100%;
+
       @media(min-width: $size) {
         width: percentage($i / 12);
       }
