@@ -29,3 +29,15 @@
   letter-spacing: 2px;
   background: #efefef;
 }
+
+.doc-row {
+  display: flex;
+
+  .doc-row-section {
+    margin-right: 15px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
