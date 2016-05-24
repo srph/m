@@ -1,5 +1,5 @@
 DOCS_MAIN=./docs/stylesheets/main.scss
-DOCS_OUTPUT=./docs/stylesheets/style.css
+DOCS_OUTPUT=./docs/style.css
 MAIN=./stylesheets/main.scss
 OUTPUT=./dist/style.css
 
