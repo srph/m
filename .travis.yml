@@ -10,7 +10,8 @@ env:
     - GIT_SOURCE: docs
 
 script:
+- gem install sass
 - make docs
 
 after_success:
-- if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then npm install git-update-ghpages && ./node_modules/.bin/git-update-ghpages -e; fi
+- if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then npm install node-sass git-update-ghpages && ./node_modules/.bin/git-update-ghpages -e; fi
