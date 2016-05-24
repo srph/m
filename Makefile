@@ -1,9 +1,12 @@
 DOCS=./docs
-MAIN=./stylesheets/main.scss
-OUTPUT=./style.css
+MAIN=stylesheets/main.scss
+OUTPUT=style.css
 
 dev:
-	sass --watch $(DOCS)/stylesheets/main.scss:$(DOCS)/style.css
+	sass --watch $(DOCS)/$(MAIN):$(DOCS)/$(OUTPUT)
+
+docs:
+  sass $(DOCS)/$(MAIN):$(DOCS)/$(OUTPUT)
 
 clean:
 	echo "No command yet!" && exit 0
