@@ -2,6 +2,8 @@
 ## m
 (n.) minimalistic stylesheets
 
+[Demo](https://srph.github.io/m) / [Preview](preview.png)
+
 ## Why?
 - This is not another UI Framework.
 - I'd like to get my feet wet with SUITCSS's Conventions.
