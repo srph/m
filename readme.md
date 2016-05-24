@@ -18,6 +18,7 @@
 - Has useful mixins and utilities!
 
 ## 101
+- Includes [normalize.scss](https://necolas.github.io/normalize.css/)
 - Loosely follows [SUITCSS Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md).
 - Loosely follows [codeguide](http://codeguide.co/).
 - Uses [Font Awesome](https://fortawesome.github.io/Font-Awesome/).
