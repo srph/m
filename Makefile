@@ -1,14 +1,15 @@
-DOCS=./docs
-MAIN=stylesheets/main.scss
-OUTPUT=style.css
+DOCS_MAIN=./docs/stylesheets/main.scss
+DOCS_OUTPUT=./docs/stylesheets/style.css
+MAIN=./stylesheets/main.scss
+OUTPUT=./dist/style.css
 
 dev:
-	sass --watch $(DOCS)/$(MAIN):$(DOCS)/$(OUTPUT)
+	sass --watch $(DOCS_MAIN):$(DOCS_OUTPUT)
 
 docs:
-  sass $(DOCS)/$(MAIN):$(DOCS)/$(OUTPUT)
+	sass $(DOCS_MAIN):$(DOCS_OUTPUT)
 
 clean:
-	echo "No command yet!" && exit 0
+	sass $(MAIN):$(OUTPUT)
 
-.PHONY: clean
+.PHONY: clean docs
