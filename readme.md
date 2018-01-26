@@ -2,7 +2,7 @@
 ## m
 (n.) minimalistic stylesheets
 
-[Demo](https://srph.github.io/m) / [Preview](preview.png)
+[Demo](https://m.kierb.com) / [Preview](preview.png)
 
 ## Why?
 - This is not another UI Framework.
