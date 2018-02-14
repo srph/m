@@ -27,7 +27,7 @@ This is a *lesser* [Skeleton CSS](http://getskeleton.com/) and has useful mixins
   - Colors
     - Lowercase hex values
 
-## Running
+## Setup
 ```bash
 make dev # compiles and watches for changes.
 make # make a clean release
