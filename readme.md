@@ -9,6 +9,15 @@ This is not another UI Framework.
 
 This is a *lesser* [Skeleton CSS](http://getskeleton.com/) and has useful mixins and utilities! Feel free to use this as a starting point. Or better yet, use it for ideas.
 
+## Usage
+Copy `stylesheets` to your project's css directory, and then run sass:
+
+```bash
+sass path/to/css/main.scss:path/to/public/folder/style.css
+```
+
+You should be good to go!
+
 ## 101
 - Includes [normalize.scss](https://necolas.github.io/normalize.css/)
 - Loosely follows [SUITCSS Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md).
