@@ -17,13 +17,11 @@ This is a *lesser* [Skeleton CSS](http://getskeleton.com/) and has useful mixins
 - Avoid `margin-top` when possible.
 - Variables
   - Inspiration taken from [Medium's Coding Guidelines#Variables](https://gist.github.com/fat/a47b882eb5f84293c4ed#variables).
-  - Naming
-	- `<property>-<value>[--ComponentName]`
-  	  - `$color-grayLight`
-  	  - `$color-grayLight--Modal`
-  	  - `$fontSize-large`
-  - Colors
-    - Lowercase hex values
+  - Naming follows the pattern `<property>-<value>[--ComponentName]`
+    - `$color-grayLight`
+    - `$color-grayLight--Modal`
+    - `$fontSize-large`
+  - Colors should always be in lowercase hex values (e.g., `#000`)
 
 ## Setup
 ```bash
