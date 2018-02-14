@@ -5,17 +5,9 @@
 [Demo](https://m.kierb.com) / [Preview](preview.png)
 
 ## Why?
-- This is not another UI Framework.
-- I'd like to get my feet wet with SUITCSS's Conventions.
-- See if I can achieve a much more cleaner CSS so far.
+This is not another UI Framework.
 
-## Also
-- No documentation.
-- Not maintained.
-- A *lesser* [Skeleton CSS](http://getskeleton.com/).
-  - Use it for ideas.
-  - Use it as a starting point.
-- Has useful mixins and utilities!
+This is a *lesser* [Skeleton CSS](http://getskeleton.com/) and has useful mixins and utilities! Feel free to use this as a starting point. Or better yet, use it for ideas.
 
 ## 101
 - Includes [normalize.scss](https://necolas.github.io/normalize.css/)
