@@ -32,6 +32,9 @@ You should be good to go!
 
 ## Setup
 ```bash
-make dev # compiles and watches for changes.
-make # make a clean release
+# For development - compiles and watches for changes.
+make dev
+
+# For production - make a clean release
+make
 ```
